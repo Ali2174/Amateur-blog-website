@@ -1,0 +1,138 @@
+
+:root{
+
+    --reng:linear-gradient(rgb(85, 0, 255),rgb(229, 16, 16),green);
+}
+.starlogo {
+ height: 100px;
+ width: 100px;
+}
+
+.name {
+    font-style: italic;
+    font-size: 30px;
+  
+}
+.name:hover{
+
+    background-image: var(--reng);
+}
+
+.navbar {
+    height: 30px;
+}
+
+.navbar-flexbox {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+
+
+}
+
+.navelements {
+    font-size: 30px;
+    margin-right: 40px;
+    
+    cursor: pointer;
+
+}
+.navelements:hover{
+
+    background-image: var(--reng);
+}
+
+.navlinks {
+    text-decoration: unset;
+    text-decoration-line: unset;
+    color: #241B18;
+
+}
+.bigphoto{
+    margin-top: 50px;
+   width: auto; 
+   height: 800px;
+ 
+ box-shadow: 0 0 40px 0 rgb(46, 57, 32);  
+ /* display: block;
+
+  */
+}
+.bigphotobar{
+
+    display: flex;
+    justify-content: center;
+}
+
+.information{
+    display: flex;
+    shape-outside: circle(50%);
+    }
+    .miniphoto{
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 50%;
+    float: left;
+    margin-bottom: 30px;
+      
+    }
+.information-text{
+    text-align: justify;
+     color: #09090d;
+      font-size: 1.5rem;
+       background-color: rgb(193, 220, 105) ;
+}    
+
+
+
+.photobar {
+   
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+
+.photobarinside {
+
+    height: 300px;
+    width: 350px;
+}
+.Endbar{
+    display: flex;
+    margin-top: 100px;
+    height: 200px;
+  
+flex-direction: row;
+justify-content: space-around;
+
+
+}
+.Endbar-inside{
+width: 400px;
+text-align: center;
+font-style: oblique;
+
+}
+
+
+.Videobar{
+margin-top: 40px;
+    display: flex;
+justify-content: center;
+ flex-wrap: wrap;
+  
+}
+.videobar-logo{
+    height: 400px;
+padding-left: 70px;
+padding-right:70px;
+}
+.video{
+    
+   
+    border: 3px solid red;
+    border-radius: 10%;
+}
